@@ -13,6 +13,8 @@
 .externalNativeBuild
 **/test/
 **/androidTest/
+/app/release
+
 # NDK
 obj/
 *.so
