@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.Fucksoul" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:colorPrimary">#6200EE</item>
+        <item name="android:colorPrimaryDark">#3700B3</item>
+        <item name="android:colorAccent">#03DAC5</item>
+        <item name="android:statusBarColor">#3700B3</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+[versions]
+agp = "8.11.1"
+api = "82"
+kotlin = "2.2.0"
+material = "1.12.0"
+fragmentKtx = "1.8.8"
+[libraries]
+api = { module = "de.robv.android.xposed:api", version.ref = "api" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtx" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
